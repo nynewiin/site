@@ -19,7 +19,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+contract_us: true
 use_logo: false
 
 # Content paginator
@@ -63,4 +63,7 @@ exclude: [
 ]
 
 # Theme
-version: v3.1.0
+# version: v3.1.0
+
+# Advanced Settings
+#=include translations.yml

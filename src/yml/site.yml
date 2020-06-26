@@ -1,6 +1,7 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: 上海能运金属构件
+title: 能运 | Newiin
+description: 专业生产机场围界、小区围栏、道路护栏、隔离栅、金属防腐网及涂装设备。
+keywords: 围栏,护栏,隔离栅,机场围界,金属防腐网
 tags:
   - blog
   - template
@@ -11,11 +12,11 @@ email: youremail@xyz.com
 disqus_username: disqus_username
 show_hero: true
 menu:
-  - title: Home
+  - title: 首页
     url: /
-  - title: About
+  - title: 关于
     url: /about
-  - title: Contact
+  - title: 联系
     url: /contact
-  - title: Feed
-    url: /feed.xml
+  # - title: Feed
+  #   url: /feed.xml

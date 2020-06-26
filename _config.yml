@@ -1,7 +1,8 @@
 # Site Settings
-name: 上海能运金属构件有限公司
+name: 上海能运金属构件
 title: 能运 | Newiin
 description: 专业生产机场围界、小区围栏、道路护栏、隔离栅、金属防腐网及涂装设备。
+keywords: 围栏,护栏,隔离栅,机场围界,金属防腐网
 tags:
   - blog
   - template
@@ -21,10 +22,8 @@ menu:
   # - title: Feed
   #   url: /feed.xml
 
-
 # Social Media Settings
 # Remove the item if you don't need it
-
 # github_username: github_username
 # facebook_username: facebook_username
 # twitter_username: twitter_username
@@ -34,7 +33,7 @@ menu:
 
 
 # Posts Settings
-# show_time_bar: true
+show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
@@ -55,7 +54,7 @@ highlighter: rouge
 permalink: /:title/
 collections:
   authors:
-    output: false
+    output: true
 paginate_path: "/page/:num/"
 contract_us: true
 use_logo: false
@@ -103,16 +102,17 @@ exclude: [
 # Theme
 # version: v3.1.0
 
+# Advanced Settings
 translations:
   text:
-    new_post: "New Post"
-    see_also: "See also"
+    new_post: "最新"
+    see_also: "相关推荐"
     search: "搜索"
     author: "作者"
     share: "分享"
     comments: "评论"
   button:
-    read_now: "Read Now"
+    read_now: "企业信息"
     share_on_twitter: "Share on Twitter"
     share_on_facebook: "Share on Facebook"
   pagination:
