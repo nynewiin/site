@@ -1,7 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: 上海能运金属构件有限公司
+title: 能运 | Newiin
+description: 专业生产机场围界、小区围栏、道路护栏、隔离栅、金属防腐网及涂装设备。
 tags:
   - blog
   - template
@@ -12,28 +12,29 @@ email: youremail@xyz.com
 disqus_username: disqus_username
 show_hero: true
 menu:
-  - title: Home
+  - title: 首页
     url: /
-  - title: About
+  - title: 关于
     url: /about
-  - title: Contact
+  - title: 联系
     url: /contact
-  - title: Feed
-    url: /feed.xml
+  # - title: Feed
+  #   url: /feed.xml
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+
+# github_username: github_username
+# facebook_username: facebook_username
+# twitter_username: twitter_username
+# instagram_username: instagram_username
+# linkedin_username: linkedin_username
+# medium_username: medium_username
 
 
 # Posts Settings
-show_time_bar: true
+# show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
@@ -42,8 +43,8 @@ two_columns_layout: true
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
+google_analytics: "UA-169433022-1"
+language: "zh"
 categories_folder: category
 sent_message_url: "/contact/message-sent/"
 
@@ -54,9 +55,9 @@ highlighter: rouge
 permalink: /:title/
 collections:
   authors:
-    output: true
+    output: false
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+contract_us: true
 use_logo: false
 
 # Content paginator
@@ -100,4 +101,46 @@ exclude: [
 ]
 
 # Theme
-version: v3.1.0
+# version: v3.1.0
+
+translations:
+  text:
+    new_post: "New Post"
+    see_also: "See also"
+    search: "搜索"
+    author: "作者"
+    share: "分享"
+    comments: "评论"
+  button:
+    read_now: "Read Now"
+    share_on_twitter: "Share on Twitter"
+    share_on_facebook: "Share on Facebook"
+  pagination:
+    page: "页"
+    of: "/"
+    next_page: "下一页"
+    next_post: "上一页"
+  recommendation:
+    text: "推荐阅读"
+    back_btn: "返回顶部"
+  error_404:
+    title: "Page not found :("
+    message: "I'm sorry. We couldn't find the page you are looking for."
+    image_alt: "404 - Page not found"
+  contact:
+    title: "Talk to me"
+    subject: "New contact!"
+    submit_btn: "Send"
+    placeholders:
+      name: "Your name"
+      email: "Your e-mail"
+      message: "Your message"
+    errors:
+      locale: "en"
+      empty_name: "Name is required"
+      empty_email: "Email is required"
+      invalid_email: "Email is invalid"
+      empty_message: "Message is required"
+    after_send:
+      title: "Message sent!"
+      message: "Thank you for sending me a message. I'm going to answer ASAP."
