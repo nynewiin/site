@@ -42,8 +42,8 @@
 
     {% if page.tags %}
         <meta name="keywords" content="{{ page.tags | join: ', ' }}">
-    {% elsif site.tags %}
-        <meta name="keywords" content="{{ site.tags | join: ', ' }}">
+    {% elsif site.keywords %}
+        <meta name="keywords" content="{{ site.keywords | join: ', ' }}">
     {% endif %}
 
 
