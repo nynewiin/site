@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var post = document.querySelector('.post-content');
+    var post = document.querySelector('.post');
     var timeBar = document.querySelector('.time-bar');
     var shouldShow = true;
 
@@ -13,9 +13,10 @@
         var remaining = timeBar.querySelector('.remaining');
         var timeCompleted = timeBar.querySelector('.time-completed');
         var timeRemaining = timeBar.querySelector('.time-remaining');
-
+        var scrollMore = document.querySelector('.recommendation');
         document.addEventListener('scroll', function () {
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            var maxScrollTop = post.scrollHeight-window.innerHeight+scrollMore.clientHeight;
 
             if (scrollTop > lastScrollTop && shouldShow) {
                 timeBar.style.bottom = '0%';
