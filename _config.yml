@@ -22,6 +22,8 @@ menu:
   # - title: Feed
   #   url: /feed.xml
 
+image_path: /assets/img/images/
+
 # Social Media Settings
 # Remove the item if you don't need it
 # github_username: github_username
