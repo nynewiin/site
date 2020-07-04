@@ -1,17 +1,17 @@
 ---
-date: 2000-01-21 12:26:40
+date: 2020-06-23 12:26:40
 layout: post
 title: 暖风机产品
-subtitle: 暖风机产品
+subtitle:
 image: /assets/img/images/heating-system/20101025224520509.jpg
 optimized_image: /assets/img/images/heating-system/20101025224520509.jpg
-category: product
+category: 产品
 tags:
   - 暖风机
   - 暖通
 author: tx
 paginate: true
-description: 暖风机产品
+description:
 ---
 
 # 暖风机产品

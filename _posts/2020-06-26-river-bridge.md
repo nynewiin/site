@@ -1,18 +1,18 @@
 ---
-date: 2000-01-19 12:26:40
+date: 2020-06-26 12:26:40
 layout: post
 title: 河道、桥护栏项目
-subtitle: 河道、桥护栏项目
+subtitle:
 image: /assets/img/images/river-bridge/20101025221213887.jpg
 optimized_image: /assets/img/images/river-bridge/20101025221213887.jpg
-category: product
+category: 项目
 tags:
   - 护栏
   - 河道护栏
   - 桥护栏
 author: tx
 paginate: true
-description: 河道、桥护栏项目
+description:
 ---
 
 # 河道、桥护栏

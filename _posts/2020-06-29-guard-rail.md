@@ -1,11 +1,11 @@
 ---
-date: 2000-01-11 12:26:40
+date: 2020-06-29 12:26:40
 layout: post
 title: 公路项目
-subtitle: 公路项目
+subtitle:
 image: /assets/img/images/guard-rail/20101025222257217.jpg
 optimized_image: /assets/img/images/guard-rail/20101025222257217.jpg
-category: product
+category: 项目
 tags:
   - 护栏
   - 隔离栏
@@ -13,7 +13,7 @@ tags:
   - 公路隔离栏
 author: tx
 paginate: true
-description: 公路项目
+description:
 ---
 # 公路
 ![公路项目]({{ site.image_path }}guard-rail/20101025222257217.jpg "公路项目")
