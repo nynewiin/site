@@ -8,16 +8,18 @@
 
         <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
             <article role="article" class="post-content">
-                <p class="post-info">
-                    {% if page.date %}
-                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
-                            {% include date.html date=page.date %}
-                        </time>
-                    {% endif %}
-                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>{{ minutesText }}</span>
-                </p>
+                {% if site.show_time %}
+                    <p class="post-info">
+                        {% if page.date %}
+                            <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                            <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+                                {% include date.html date=page.date %}
+                            </time>
+                        {% endif %}
+                        <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                        <span>{{ minutesText }}</span>
+                    </p>
+                {% endif %}
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
@@ -112,7 +114,7 @@
             };
         </script>
         <script type="text/javascript" id="MathJax-script" async
-            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+            src="https://cdn.bootcss.com/mathjax/3.0.5/es5/tex-mml-chtml.js">
         </script>
         {% endif %}
         <script type="application/ld+json">
