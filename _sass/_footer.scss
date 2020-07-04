@@ -18,7 +18,7 @@ footer {
   @include mainFont(300);
 
   @include media(">=sm") {
-    margin-top: rem(100px);
+    // margin-top: rem(100px);
   }
 
   p {
