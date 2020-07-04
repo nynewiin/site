@@ -9,7 +9,7 @@ tags:
   - theme
   - netlify
 email: youremail@xyz.com
-disqus_username: disqus_username
+# disqus_username: disqus_username
 show_hero: true
 menu:
   - title: 首页
@@ -22,3 +22,4 @@ menu:
   #   url: /feed.xml
 
 image_path: /assets/img/images/
+show_time: false

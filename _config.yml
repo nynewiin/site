@@ -10,7 +10,7 @@ tags:
   - theme
   - netlify
 email: youremail@xyz.com
-disqus_username: disqus_username
+# disqus_username: disqus_username
 show_hero: true
 menu:
   - title: 首页
@@ -23,6 +23,7 @@ menu:
   #   url: /feed.xml
 
 image_path: /assets/img/images/
+show_time: false
 
 # Social Media Settings
 # Remove the item if you don't need it
@@ -35,7 +36,7 @@ image_path: /assets/img/images/
 
 
 # Posts Settings
-show_time_bar: true
+# show_time_bar: true
 show_modal_on_exit: false
 show_modal_on_finish_post: true
 two_columns_layout: true
