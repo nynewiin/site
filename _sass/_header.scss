@@ -6,6 +6,7 @@ body {
 .bar-header {
   background-color: $primaryDark;
   padding: rem(10px) rem(15px);
+  padding-right: rem(10px);
   position: fixed;
   left: 0;
   width: 100%;
@@ -26,11 +27,14 @@ body {
       display: block;
       color: $accentDark;
       text-decoration: none;
-      font-size: rem(32px);
+      font-size: rem(18px);
       position: relative;
       outline: 0;
+      @include media(">=sm") {
+        font-size: rem(32px);
+      }
     }
-
+    
     svg {
       width: rem(120px);
       height: rem(30px);
@@ -73,9 +77,10 @@ body {
     width: rem(30px);
     height: rem(30px);
     cursor: pointer;
-    margin: 0;
-    @include media(">=sm") {
-      margin: 0 rem(20px) 0 0;
+    margin: 0 rem(20px) 0 0;
+    @include media("<=sm") {
+      display: none;
+      margin: 0;
     }
   }
 
@@ -87,7 +92,7 @@ body {
   }
 
   .get-theme {
-    display: none;
+    display: inline-block;
     font-size: rem(13px);
     font-weight: bold;
     text-decoration: none;
@@ -96,10 +101,11 @@ body {
     padding: rem(5px) rem(10px);
     border-radius: rem(5px);
     float: right;
-    margin: rem(5px) rem(15px) rem(5px) rem(5px);
+    margin: rem(5px) rem(5px) rem(5px) rem(5px);
 
     @include media(">=sm") {
       display: inline-block;
+      margin: rem(5px) rem(15px) rem(5px) rem(5px);
     }
   }
 }
