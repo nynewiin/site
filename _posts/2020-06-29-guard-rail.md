@@ -16,9 +16,7 @@ paginate: true
 description:
 ---
 # 公路
-![公路项目]({{ site.image_path }}guard-rail/20101025222257217.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/20101025223235611.jpg "公路项目")
-![公路项目]({{ site.image_path }}guard-rail/2010102522344685.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/20101025223551321.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/20101025223614191.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/2010102522370501.jpg "公路项目")
@@ -27,9 +25,7 @@ description:
 ![公路项目]({{ site.image_path }}guard-rail/2010102522429414.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/201010252271295.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/2010102522728970.jpg "公路项目")
-![公路项目]({{ site.image_path }}guard-rail/2010102522844982.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/201938221158594.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/201938221237857.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/201938221329119.jpg "公路项目")
 ![公路项目]({{ site.image_path }}guard-rail/20193822136421.jpg "公路项目")
-![公路项目]({{ site.image_path }}guard-rail/201938223917618.jpg "公路项目")
