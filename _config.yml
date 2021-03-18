@@ -1,7 +1,7 @@
 # Site Settings
 name: 上海能运金属构件有限公司
-title: 上海能运金属构件有限公司 | Newiin
-description: 专业生产机场围界、小区围栏、道路护栏、隔离栅、金属防腐网及涂装设备。
+title: 围栏_护栏_机场隔离栅_金属防腐网-上海能运金属构件Newiin
+description: 上海能运金属构件有限公司主要生产围栏,护栏,机场围界、开发区围栏、小区围栏、道路围栏、隔离栅、道路设施、金属防腐网及涂装设备的防腐设备公司，公司引用先进的涂装技术，对金属表面通过高温氧化后进行浸塑处理，使金属表面同空气彻底隔绝，起到非常好的防腐作用。
 keywords: 围栏,护栏,隔离栅,机场围界,金属防腐网
 tags:
   - blog
@@ -19,8 +19,8 @@ menu:
     url: /about
   - title: 联系
     url: /contact
-  # - title: Feed
-  #   url: /feed.xml
+  - title: 新闻
+    url: /news
 
 image_path: /assets/img/images/
 show_time: false
